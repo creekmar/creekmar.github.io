@@ -298,7 +298,7 @@ ul.email li img {
      z-index: 9999999;
      height: 100%;
      top: 0;
-     left: 0;
+     right: 0;
      background-color: #111;
      overflow-x: hidden;
      transition: 0.5s;
@@ -955,5 +955,20 @@ ul.re_post li {
      padding-right: 0;
 }
 
+#WiC {
+     width: 200px;
+     height: auto;
+     float:right;
+     margin-right: 10%;
+     margin-left: 5%;
+}
+
+#Tora {
+     width: 200px;
+     height: auto;
+     float: left;
+     margin-left: 10%;
+     margin-right:5%;
+}
 
 /** end contact **/
