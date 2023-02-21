@@ -332,18 +332,34 @@ ul.email li img {
      border: none;
 }
 
-
-/** banner_main **/
-
-.banner_main {
-     background: url(../images/banner1.jpg);
-     background-size: 100% 100%;
+.home_bg {
+     background: url(../images/programming_background.png);
+     background-size: 100% auto;
      background-position: center;
      background-repeat: no-repeat;
-     height: 1034px;
+     height: 700px;
      display: flex;
      justify-content: center;
      align-items: center;
+     position: relative;
+}
+
+/** banner_main **/
+
+.carousel_bg {
+     background-color: black;
+     background-size: 100% auto;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 700px;
+}
+
+.banner_main {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     padding-top: 5%;
 }
 
 .carousel-indicators li {
@@ -365,10 +381,6 @@ ul.email li img {
      right: inherit;
 }
 
-.banner_main {
-     position: relative;
-}
-
 .relative {
      position: inherit;
      bottom: 0;
@@ -376,7 +388,7 @@ ul.email li img {
 }
 
 .bg_white {
-     background: #fffffff0;
+     background: orange;
      padding: 45px 20px 50px 20px;
 }
 
@@ -397,12 +409,12 @@ ul.email li img {
 
 .banner_main .ban_btn {
      display: block;
-     background: #fff;
-     color: #000;
+     background: #8b1310;
+     color: #fff;
      font-size: 17px;
      font-weight: 500;
      margin: 0 auto;
-     margin-top: 55px;
+     margin-top: 20px;
 }
 
 .ban_btn .carousel-control-next-icon,
@@ -432,6 +444,7 @@ ul.email li img {
 
 .about {
      padding-top: 10px;
+     padding-bottom: 20px;
 }
 
 .about .titlepage p {
@@ -442,8 +455,8 @@ ul.email li img {
 }
 
 .about_box {
-     padding: 20px 0;
-     box-shadow: 4px 0 27px rgba(02, 3, 8, 0.20);
+     padding: 20px 20px;
+     /* box-shadow: 4px 0 27px rgba(02, 3, 8, 0.20); */
 }
 
 .about_box_text {
@@ -468,8 +481,9 @@ ul.email li img {
 }
 
 .about_box_img {
-     padding: 35px 0;
-     margin-right: -60px;
+     margin-left:25%;
+     width:1000px;
+     height: auto;
 }
 
 .about_box_img figure {
@@ -477,7 +491,8 @@ ul.email li img {
 }
 
 .about_box_img figure img {
-     width: 100%;
+     width: auto;
+     height: auto;
 }
 
 
@@ -757,7 +772,7 @@ ul.email li img {
 
 .footer {
      background: #540705;
-     padding-top: 362px
+    
 }
 
 ul.social_icon {
@@ -964,6 +979,14 @@ ul.re_post li {
 }
 
 #Tora {
+     width: 200px;
+     height: auto;
+     float: left;
+     margin-left: 10%;
+     margin-right:5%;
+}
+
+#profile_pic {
      width: 200px;
      height: auto;
      float: left;
