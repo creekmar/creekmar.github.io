@@ -986,6 +986,14 @@ ul.re_post li {
      margin-right:5%;
 }
 
+#dprl {
+     width: 600px;
+     height: auto;
+     float:right;
+     margin-right: 10%;
+     margin-left: 5%;
+}
+
 #profile_pic {
      width: 200px;
      height: auto;
@@ -993,5 +1001,11 @@ ul.re_post li {
      margin-left: 10%;
      margin-right:5%;
 }
+
+.about_left_text {
+     -ms-flex: 0 0 60%;
+     flex: 0 0 60%;
+     max-width: 60%;
+   }
 
 /** end contact **/
